@@ -38,6 +38,7 @@ int main(){
   cout<<"       1. Volume Kubus  < "<<endl;
   cout<<"       2. Volume Balok  < "<<endl;
   cout<<"       3. Volume Tabung < "<<endl;
+  cout<<"       4. Exit Program  < "<<endl;
   cout<<endl;
   cout<<"          Pilih Menu : "; cin>>n;
   cout<<endl;
@@ -95,6 +96,10 @@ int main(){
     cout<<"  Volume tabung adalah "<<volume3<<endl;
     cout<<"-------------------------------"<<endl;
     break;
+
+    case 4 :
+    cout<<"          Terima Kasih!"<<endl;
+    exit(0);
 
     default :
     cout<<"      Menu tidak tersedia!"<<endl;
